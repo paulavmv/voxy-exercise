@@ -4,6 +4,10 @@ This project contains a single page that is responsible for receiving a text inp
 printing on screen how many words contain in the text.
 This was developed using ReactJS - NextJS. I wasn't sure of how simple the project should be, so I only added the main page and a few tests using Jest.
 
+You can try to access the webpage here:
+
+https://voxy-exercise.vercel.app/
+
 ## Getting Started
 
 0. Initial setup
