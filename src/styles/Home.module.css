@@ -1,0 +1,57 @@
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  height: 80%;
+}
+
+
+.submitButton {
+  background-color: rgb(48, 45, 104);
+  padding: 0.5rem 1rem;
+  color: white;
+  border: none;
+  font-weight: 700;
+  font-family: monospace;
+  border-radius: 5px;
+}
+
+.submitButton:hover {
+  color: rgb(48, 45, 104);
+  background-color: white;
+}
+
+.form {
+  background-color: #EDE1F3;
+  padding: 3rem;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 60vw;
+
+}
+
+@media (max-width:641px){
+  .form {
+      width: 65vw;
+  }
+}
+
+.textarea {
+  resize: none;
+  height: 15em;
+  width: 50em;
+  margin: 1rem 2rem;
+  font-family: monospace;
+}
+
+@media (max-width:641px){
+  .textarea {
+    width: 75vw;
+    height: 70vh;
+  }
+}

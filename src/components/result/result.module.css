@@ -1,0 +1,31 @@
+.result {
+    background-color: #EDE1F3;
+    padding: 3rem;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60vw;
+
+  }
+  
+  @media (max-width:641px){
+    .result {
+        width: 65vw;
+    }
+  }
+
+.inputText {
+    height: 15em;
+    width: 50em;
+    margin: 1rem 2rem;
+    font-family: monospace;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0.5rem;
+    overflow-y: scroll;
+}
+
+.wordCount {
+    font-weight: bold;
+}
