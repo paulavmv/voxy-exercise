@@ -17,13 +17,20 @@
 
 .inputText {
     height: 15em;
-    width: 50em;
+    width: 50vw;
     margin: 1rem 2rem;
     font-family: monospace;
     background-color: white;
     border-radius: 5px;
     padding: 0.5rem;
     overflow-y: scroll;
+}
+
+@media (max-width:641px){
+  .inputText {
+    width: 75vw;
+    height: 50vh;
+  }
 }
 
 .wordCount {
