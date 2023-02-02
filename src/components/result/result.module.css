@@ -26,6 +26,13 @@
     overflow-y: scroll;
 }
 
+@media (max-width:641px){
+  .inputText {
+    width: 75vw;
+    height: 50vh;
+  }
+}
+
 .wordCount {
     font-weight: bold;
 }

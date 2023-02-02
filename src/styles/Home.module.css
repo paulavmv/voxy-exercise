@@ -52,6 +52,6 @@
 @media (max-width:641px){
   .textarea {
     width: 75vw;
-    height: 70vh;
+    height: 50vh;
   }
 }
